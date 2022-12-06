@@ -1,0 +1,18 @@
+var kelvin = 293;  //create a constant value to the conversion
+
+var celsius = kelvin -273; //convert kelvin variable from kelvin to celsius
+var farenheit = celsius *(9/5)+32;
+// convert from celsius to farenheit
+
+farenheit=Math.floor(farenheit)
+//using floor function to round down the the farenheit temperature
+
+console.log("the temperature is temperature degrees farenheit : ",farenheit)
+
+/**********************************************user interaction******************************************************************************************************/
+var kelvin = readLine("enter the temperature in kelvin : ");
+var celsius = kelvin-273;
+var f=celsius*(9/5)+32;
+f=Math.floor(f);
+
+println("temperature in farenheit : " + f);
